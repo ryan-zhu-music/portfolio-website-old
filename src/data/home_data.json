@@ -1,0 +1,33 @@
+{
+  "Header": {
+    "title": "Hey, I'm Ryan Zhu",
+    "paragraph": "I'm a high school student and musician in Ontario, Canada. Read on to learn more about me!"
+  },
+  "About": {
+    "paragraph": "Over the past 5 years, I have developed interests in computer science, as well as music. My interests include:",
+    "list": [
+      "Composing",
+      "Piano",
+      "Coding",
+      "Mathematics"
+    ]
+  },
+  "Music": {
+    "paragraph": "Browse through my library of original compositions and arrangements, spanning various styles including Classicism, Romanticism, Impressionism, and Modernism.",
+    "subtitles": [ 
+      "Soundtracks",
+      "Solo Piano",
+      "Ensemble and Orchestra"
+    ]
+  }, 
+  "Contact": {
+  },
+  "Footer": {
+    "facebook": "https://www.facebook.com/ryan.zhu.9619/",
+    "instagram": "https://www.instagram.com/r.y.a.n.z.h.u/",
+    "twitter": "https://twitter.com/RZMusic19",
+    "youtube": "https://www.youtube.com/channel/UCHIpJEaiDBQ8Jd07tZj0D7A",
+    "soundcloud": "https://soundcloud.com/ryan-zhu-music",
+    "musescore": "https://musescore.com/ryan_zhu_music"
+  }
+}
