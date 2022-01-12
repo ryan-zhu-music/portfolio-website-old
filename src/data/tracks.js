@@ -4,9 +4,9 @@ import RachmaninoffFugue from "../assets/audio/Piano/RachmaninoffFugue.mp3";
 import Concerto1 from "../assets/audio/Ensemble/Concerto 1.mp3";
 import AceOfSpades from "../assets/audio/Ensemble/AceOfSpades.mp3";
 
-import ToTheLandsBeyond from "../assets/audio/Soundtracks/ToTheLandsBeyond.wav";
-import Amazon from "../assets/audio/Soundtracks/Amazon.wav";
-import LittleFantasySuite from "../assets/audio/Soundtracks/LittleFantasySuite.wav";
+import ToTheLandsBeyond from "../assets/audio/Soundtracks/ToTheLandsBeyond.mp3";
+import Amazon from "../assets/audio/Soundtracks/Amazon.mp3";
+import LittleFantasySuite from "../assets/audio/Soundtracks/LittleFantasySuite.mp3";
 
 import IMG_Sapphire from "../assets/img/Sapphire.png";
 import IMG_RachmaninoffFugue from "../assets/img/RachmaninoffFugue.jpg";

@@ -7,13 +7,13 @@ function importAll(r) {
 }
 
 const soundtracks = importAll(
-  require.context("../assets/audio/Soundtracks", false, /\.(mp3|wav)$/)
+  require.context("../assets/audio/Soundtracks", false, /\.(mp3)$/)
 );
 const piano = importAll(
-  require.context("../assets/audio/Piano", false, /\.(mp3|wav)$/)
+  require.context("../assets/audio/Piano", false, /\.(mp3)$/)
 );
 const ensemble = importAll(
-  require.context("../assets/audio/Ensemble", false, /\.(mp3|wav)$/)
+  require.context("../assets/audio/Ensemble", false, /\.(mp3)$/)
 );
 
 const music_data = {
@@ -32,21 +32,21 @@ const music_data = {
         tracks: [
           {
             title: "To The Lands Beyond",
-            source: soundtracks["ToTheLandsBeyond.wav"],
+            source: soundtracks["ToTheLandsBeyond.mp3"],
             starred: true,
           },
           {
             title: "Wonderland",
-            source: soundtracks["Wonderland.wav"],
+            source: soundtracks["Wonderland.mp3"],
           },
           {
             title: "Little Fantasy Suite",
-            source: soundtracks["LittleFantasySuite.wav"],
+            source: soundtracks["LittleFantasySuite.mp3"],
             starred: true,
           },
           {
             title: "Fallen",
-            source: soundtracks["Fallen.wav"],
+            source: soundtracks["Fallen.mp3"],
           },
           {
             title: "Atlantis",
@@ -64,7 +64,7 @@ const music_data = {
         tracks: [
           {
             title: "Amazon",
-            source: soundtracks["Amazon.wav"],
+            source: soundtracks["Amazon.mp3"],
             starred: true,
           },
           {
@@ -88,7 +88,7 @@ const music_data = {
         tracks: [
           {
             title: "Sail!",
-            source: soundtracks["Sail.wav"],
+            source: soundtracks["Sail.mp3"],
           },
           {
             title: "Arcane Abyss",
