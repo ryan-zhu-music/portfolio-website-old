@@ -19,7 +19,7 @@ export const Contact = (props) => {
     e.preventDefault();
     console.log(name, email, message);
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+      .sendForm("service_qwrbtip", "template_xjhwgzg", e.target, "user_rSxo0vLg6VJZeYL1cffxD")
       .then(
         (result) => {
           console.log(result.text);
@@ -79,12 +79,11 @@ export const Contact = (props) => {
                     <div className="col-sm-6">
                       <div className="form-group">
                         <input
-                          type="text"
-                          id="name"
-                          name="name"
+                          type="tel"
+                          id="number"
+                          name="number"
                           className="site-contact__form-input"
                           placeholder="Phone Number"
-                          required
                           onChange={handleChange}
                         />
                         <p className="help-block text-danger"></p>
@@ -93,9 +92,9 @@ export const Contact = (props) => {
                     <div className="col-sm-6">
                       <div className="form-group">
                         <input
-                          type="email"
-                          id="email"
-                          name="email"
+                          type="text"
+                          id="subject"
+                          name="subject"
                           className="site-contact__form-input"
                           placeholder="Subject"
                           required

@@ -1,13 +1,17 @@
-export const Footer = (props) => {
+import jsonData from "../data/home_data.json";
+
+export const Footer = () => {
+  const footerLinks = jsonData.Footer;
+
   return (
-    <footer className="footer">
-      <div className="container site-nav__container">
-        <div className="row" style={{display: 'flex', alignItems: 'center'}}>
+    <footer id="site-footer" className="footer">
+      <div className="container">
+        <div className="row site-footer__row">
           <div className="col-sm-2">
-              <a href="./"><img src={require("../assets/img/logo-white.png").default} className="site-nav__logo"/></a>
+              <a href="./"><img src={require("../assets/img/logo-white.png").default} className="site-footer__logo"/></a>
           </div>
           <nav className="col-sm-5">
-            <ul className="nav navbar-nav site-nav__items">
+            <ul className="nav navbar-nav site-footer__items">
               <li>
                 <a href="./" className="page-scroll">
                   Home
@@ -31,24 +35,24 @@ export const Footer = (props) => {
             </ul>
           </nav>
           <div className="col-sm-5 site-footer__social">
-                <a href={props.data ? props.data.facebook : "/"} target="_blank">
-                    <i className="fab fa-facebook fa-2x"></i>
-                </a>
-                <a href={props.data ? props.data.twitter : "/"} target="_blank">
-                    <i className="fab fa-twitter fa-2x"></i>
-                </a>
-                <a href={props.data ? props.data.instagram : "/"} target="_blank">
-                    <i className="fab fa-instagram fa-2x"></i>
-                </a>
-                <a href={props.data ? props.data.youtube : "/"} target="_blank">
-                    <i className="fab fa-discord fa-2x"></i>
-                </a>
-                <a href={props.data ? props.data.youtube : "/"} target="_blank">
-                    <i className="fab fa-youtube fa-2x"></i>
-                </a>
-                <a href={props.data ? props.data.soundcloud : "/"} target="_blank">
-                    <i className="fab fa-soundcloud fa-2x"></i>
-                </a>
+            <a href={footerLinks ? footerLinks.facebook : "/"} target="_blank">
+                <i className="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href={footerLinks ? footerLinks.twitter : "/"} target="_blank">
+                <i className="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href={footerLinks ? footerLinks.instagram : "/"} target="_blank">
+                <i className="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href={footerLinks ? footerLinks.discord : "/"} target="_blank">
+                <i className="fab fa-discord fa-2x"></i>
+            </a>
+            <a href={footerLinks ? footerLinks.youtube : "/"} target="_blank">
+                <i className="fab fa-youtube fa-2x"></i>
+            </a>
+            <a href={footerLinks ? footerLinks.soundcloud : "/"} target="_blank">
+                <i className="fab fa-soundcloud fa-2x"></i>
+            </a>
         </div>
         </div>
       </div>

@@ -5,7 +5,8 @@ const AudioControls = ({
   isPlaying,
   onPlayPauseClick,
   onPrevClick,
-  onNextClick
+  onNextClick,
+  width
 }) => (
   <div className="site-music__audio-controls">
     <button
@@ -14,7 +15,7 @@ const AudioControls = ({
       aria-label="Previous"
       onClick={onPrevClick}
     >
-      <BsSkipBackwardFill size={32}/>
+      <BsSkipBackwardFill size={width > 700 ? 28 : 20}/>
     </button>
     {isPlaying ? (
       <button
@@ -23,7 +24,7 @@ const AudioControls = ({
         onClick={() => onPlayPauseClick(false)}
         aria-label="Pause"
       >
-        <BsFillPauseFill size={32}/>
+        <BsFillPauseFill size={width > 700 ? 28 : 20}/>
       </button>
     ) : (
       <button
@@ -32,7 +33,7 @@ const AudioControls = ({
         onClick={() => onPlayPauseClick(true)}
         aria-label="Play"
       >
-        <BsFillPlayFill size={32}/>
+        <BsFillPlayFill size={width > 700 ? 28 : 20}/>
       </button>
     )}
     <button
@@ -41,7 +42,7 @@ const AudioControls = ({
       aria-label="Next"
       onClick={onNextClick}
     >
-      <BsSkipForwardFill size={32}/>
+      <BsSkipForwardFill size={width > 700 ? 28 : 20}/>
     </button>
   </div>
 );

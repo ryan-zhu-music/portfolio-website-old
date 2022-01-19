@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import AudioControls from "./AudioControls";
-
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 const AudioPlayer = ({tracks}) => {
   // State
   const [trackIndex, setTrackIndex] = useState(0);
@@ -94,6 +94,8 @@ const AudioPlayer = ({tracks}) => {
     };
   }, []);
 
+  const { height, width} = useWindowDimensions()
+
   return (
       <div className="site-music__audio-player-container">
         <div className={isPlaying ? "site-music__audio-player-active" : "site-music__audio-player"}>
@@ -102,7 +104,7 @@ const AudioPlayer = ({tracks}) => {
                     <img
                         className="site-music__image"
                         src={image}
-                        alt={`track artwork for ${title} by ${album}`}
+                        alt={`Track artwork for ${title} by ${album}`}
                     />
                 </div>
                 <h2 className="site-music__title">{title}</h2>
@@ -112,6 +114,7 @@ const AudioPlayer = ({tracks}) => {
                     onPrevClick={toPrevTrack}
                     onNextClick={toNextTrack}
                     onPlayPauseClick={setIsPlaying}
+                    width={width}
                 />
                 <input
                     type="range"

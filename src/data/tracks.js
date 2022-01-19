@@ -8,13 +8,13 @@ import ToTheLandsBeyond from "../assets/audio/Soundtracks/ToTheLandsBeyond.mp3";
 import Amazon from "../assets/audio/Soundtracks/Amazon.mp3";
 import LittleFantasySuite from "../assets/audio/Soundtracks/LittleFantasySuite.mp3";
 
-import IMG_Sapphire from "../assets/img/Sapphire.png";
-import IMG_RachmaninoffFugue from "../assets/img/RachmaninoffFugue.jpg";
-import IMG_Concerto1 from "../assets/img/Concerto 1.png";
-import IMG_AceOfSpades from "../assets/img/Ace Of Spades.png";
-import IMG_ToTheLandsBeyond from "../assets/img/To The Lands Beyond.png";
+import IMG_Birthstones from "../assets/img/TheBirthstones.png";
+import IMG_RachmaninoffFugue from "../assets/img/RachmaninoffFugue.png";
+import IMG_Concerto from "../assets/img/Concerto.png";
+import IMG_TheHighCards from "../assets/img/TheHighCards.png";
+import IMG_ToTheLandsBeyond from "../assets/img/ToTheLandsBeyond.png";
 import IMG_Amazon from "../assets/img/Amazon.png";
-import IMG_LittleFantasySuite from "../assets/img/Little Fantasy Suite.png";
+import IMG_LittleFantasySuite from "../assets/img/LittleFantasySuite.png";
 
 export default [
   [
@@ -42,7 +42,7 @@ export default [
       title: "IX - Sapphire",
       album: "The Birthstones Suite",
       source: Sapphire,
-      image: IMG_Sapphire,
+      image: IMG_Birthstones,
     },
     {
       title: "Fugue On A Theme By Rachmaninoff",
@@ -56,13 +56,13 @@ export default [
       title: "I - Allegro Moderato",
       album: "Concerto in C for Piano and Orchestra",
       source: Concerto1,
-      image: IMG_Concerto1,
+      image: IMG_Concerto,
     },
     {
       title: "I - Ace Of Spades",
       album: "The High Cards",
       source: AceOfSpades,
-      image: IMG_AceOfSpades,
+      image: IMG_TheHighCards,
     },
   ],
 ];

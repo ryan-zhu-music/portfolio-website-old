@@ -28,7 +28,8 @@ const music_data = {
     music: [
       {
         title: "Ancient Fantasies",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        description:
+          "Adventurous and fast-paced soundtracks, evocative of fantasy sceneries.",
         tracks: [
           {
             title: "To The Lands Beyond",
@@ -60,7 +61,7 @@ const music_data = {
       },
       {
         title: "Natura",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        description: "Soundtracks encapsulating the beauty of mother nature.",
         tracks: [
           {
             title: "Amazon",
@@ -84,7 +85,7 @@ const music_data = {
       },
       {
         title: "Other",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        description: "Miscellaneous soundtracks.",
         tracks: [
           {
             title: "Sail!",
@@ -204,7 +205,7 @@ const music_data = {
             source: piano["ChopinEtudeMedley.mp3"],
           },
           {
-            title: 'Variations on "Grande Sonate Pathetique"',
+            title: "Variations on a Theme by Beethoven",
             source: piano["PathetiqueVariations.mp3"],
           },
           {
@@ -261,8 +262,7 @@ const music_data = {
     music: [
       {
         title: "Piano Concerto in C",
-        description:
-          "A piano concerto, encapsulating all of my musical studies up until this point.",
+        description: "A culmination of my musical studies up until this point.",
         tracks: [
           {
             title: "I - Allegro Moderato",

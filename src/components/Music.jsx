@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Navigation } from "./navigation";
 import { Header } from "./music/header";
 import { Playlist } from "./music/playlist";
-import { Footer } from "./footer";
+import { Footer } from "./Footer";
 
 import music_data from "../data/music_data.js";
 import SmoothScroll from "smooth-scroll";
