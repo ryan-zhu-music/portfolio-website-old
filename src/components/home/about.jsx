@@ -12,13 +12,6 @@ export const About = (props) => {
             <div className="site-about__body">
               <h2>About Me</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <ul className="site-about__list">
-                {props.data
-                    ? props.data.list.map((d, i) => (
-                        <li key={`${d}-${i}`}>{d}</li>
-                      ))
-                    : "loading"}
-              </ul>
             </div>
             <div className="btn-container">
               <a className="btn btn-custom" href="/about">

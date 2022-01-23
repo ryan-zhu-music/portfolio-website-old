@@ -1,21 +1,53 @@
 {
     "Header": {
       "title": "About Me",
-      "subtitle": "Me: Ryan Zhu"
+      "subtitle": "Everything you need to know about me as a musician"
     },
     "Body": {
-      "paragraphs": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      "Music" : {
+        "headers": [
+          "The Beginnings",
+          "Piano",
+          "Composing",
+          "Late-Romanticism",
+          "Orientalism"
         ],
-        "list": [
-        "Lorem ipsum dolor",
-        "Tempor incididunt",
-        "Lorem ipsum dolor",
-        "Incididunt ut labore"
-      ]
+        "paragraphs": [
+          "I began piano lessons at the age of 7, studying under the RCM syllabus. I quickly developed an interest in this instrument and attempted composing at the age of nine. All those early compositions were a failure, however, as I quickly realized I had no idea what I was doing. Still wanting to learn, I began studying music theory on my own at the age of 11, successfully completing the RCM level 8 Advanced Rudiments exam without any external help. I began learning harmony and history a year later, completing all of the RCM theory courses (including ARCT) in the summer of 2021.", 
+          "I completed the RCM level 10 syllabus in 2019, and am currently working towards completing the ARCT practical exam. Over the years, I have participated in several recitals and competitions, winning several awards.",
+          "I officially began my composing studies in the spring of 2020, starting with arranging my school concert band repertoire for piano. This inspired me to go on to compose my own pieces for a wind ensemble. I began using a notation software called MuseScore to notate my scores, and I would upload finished scores to my account on their website. Soon after, I attempted composing for piano for the first time in several years and even moved on to orchestration later on. My early works have a more modern and simpler harmonic language, as I was still learning basic harmonic techniques. By late 2020 and early 2021, my harmonic language had expanded greatly, and I began exploring chromatic techniques not taught in the RCM courses. By then, my audience on MuseScore had grown, and I soon became voted MuseScorer of the month, and was offered a Moderator role in the community.",
+          "Most musicians, myself included, admired the works of famous classical composers such as Mozart and Beethoven. This all changed as I began my studies in ARCT harmony and history. The ARCT history course was by far the most influential period on my studies in music. This course focused on the works of lesser-known Romantic and Contemporary composers. I become captivated by the rich harmonies and wide range of emotions present in such genres of music, which I had never heard before in earlier composers. I began studying Neo-Riemannian theory independently and became inspired by the works of late-romantic and impressionist composers (Debussy, Ravel, Rachmaninoff).",
+          "Another influence evident throughout my music comes from Oriental styles. Coming from an Eastern background, I have been exposed to Eastern styles of music from a young age. I often use harmonies drawn from Japanese anime-style or video game music. These influences are especially prevalent throughout my solo piano works."
+        ],
+        "composers": [
+          "S. Rachmaninoff",
+          "M. Ravel",
+          "G. Mahler",
+          "C. Debussy",
+          "L. Anderson",
+          "B. Bartok",
+          "I. Stravinsky",
+          "N. Kapustin",
+          "A. Louie"
+        ],
+        "music": [
+          "Piano Concerto No. 3 in D Minor - Rachmaninoff",
+          "Piano Concerto No. 4 in G Minor - Rachmaninoff",
+          "Symphonic Dances - Rachmaninoff",
+          "Isle of the Dead - Rachmaninoff",
+          "Piano Concerto No. 2 in E Major - Lyapunov",
+          "Concerto for Orchestra - Bartok",
+          "Piano Concerto No. 1 in A Minor - Kabalevsky",
+          "Piano Concerto in C - Anderson",
+          "The Planets - Holst",
+          "Viola Sonata - Clarke",
+          "Piano Concerto No. 4 - Kapustin",
+          "Piano Concerto No. 1 - Lemba",
+          "Jeux d’eau - Ravel",
+          "Symphony No. 2 - Mahler",
+          "Romeo and Juliet - Tchaikovsky"
+        ]
+      }
     },
     "Footer": {
       "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
