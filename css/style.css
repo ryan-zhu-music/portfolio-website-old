@@ -775,11 +775,6 @@ footer a {
   p {
     font-size: 17;
   }
-  .container {
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align: justify;
-  }
   #site-nav.navbar-default .navbar-nav > li .btn-container {
     margin-left: 0;
     margin-top: 20px;
@@ -830,6 +825,13 @@ footer a {
   }
   .site-footer__social {
     width: 100vw;
+  }
+  .about-body .container{
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .about-body p {
+    text-align: justify !important;
   }
   .music__playlist-container {
     width: 256px;
