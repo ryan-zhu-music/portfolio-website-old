@@ -16,7 +16,7 @@ export const Navigation = () => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a href="#home">
+          <a href="#">
             <img src={require("../../assets/img/logo-white.png").default} className="site-nav__logo"/>
           </a>{' '}
         </div>
