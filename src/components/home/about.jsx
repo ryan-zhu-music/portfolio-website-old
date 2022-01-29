@@ -14,7 +14,7 @@ export const About = (props) => {
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
             </div>
             <div className="btn-container">
-              <a className="btn btn-custom" href="/about">
+              <a className="btn btn-custom" href="https://rz-music.github.io/#/about">
                 Read More
               </a>
             </div>

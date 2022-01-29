@@ -31,7 +31,7 @@ export const Music = (props) => {
             : "Loading..."}
         </div>
         <div className="btn-container">
-          <a className="btn btn-custom" href="/music">
+          <a className="btn btn-custom" href="https://rz-music.github.io/#/music">
               View more
           </a>
         </div>
