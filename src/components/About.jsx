@@ -23,6 +23,10 @@ const About = () => {
   }, []);
 
   useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
+  useEffect(() => {
     AOS.init({
       duration: 700,
       easing: "ease-out-quart",
