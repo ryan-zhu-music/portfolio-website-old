@@ -236,7 +236,7 @@ a:focus,
 }
 
 .site-header__body {
-  padding-top: 225px;
+  padding-top: 200px;
   padding-bottom: 200px;
   text-align: left;
 }
@@ -776,8 +776,9 @@ footer a {
     font-size: 17;
   }
   .container {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
   }
   #site-nav.navbar-default .navbar-nav > li .btn-container {
     margin-left: 0;
