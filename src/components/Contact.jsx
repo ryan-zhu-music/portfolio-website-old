@@ -51,9 +51,7 @@ const Contact = (props) => {
               <div className="col-sm-6"  data-aos="fade-right">
                 <div className="site-contact__body">
                   <h2>Get In Touch</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet.
-                  </p>
+                  <p>Send an email, or message me via any of the social media platforms below.</p>
                 </div>
               </div>
               <div className="col-sm-6" data-aos="fade-left">

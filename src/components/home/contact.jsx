@@ -36,9 +36,9 @@ export const Contact = (props) => {
           <div className="row">
             <div className="col-sm-6">
               <div className="site-contact__body">
-                <h2>Get In Touch</h2>
+                <h2>{props.data ? props.data.header : "Loading..."}</h2>
                 <p>
-                  Lorem ipsum dolor sit amet.
+                  {props.data ? props.data.paragraph : "Loading..."}
                 </p>
               </div>
             </div>
