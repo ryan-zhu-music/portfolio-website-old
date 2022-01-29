@@ -27,28 +27,28 @@ export const Navigation = () => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='https://rz-music.github.io/' className='page-scroll'>
+              <a href='/' className='page-scroll'>
                 Home
               </a>
             </li>
             <li>
-              <a href='https://rz-music.github.io/#/about' className='page-scroll'>
+              <a href='/#/about' className='page-scroll'>
                 About
               </a>
             </li>
             <li>
-              <a href='https://rz-music.github.io/#/music' className='page-scroll'>
+              <a href='/#/music' className='page-scroll'>
                 Music
               </a>
             </li>
             <li>
-              <a href='https://rz-music.github.io/#/contact' className='page-scroll'>
+              <a href='/#/contact' className='page-scroll'>
                 Contact
               </a>
             </li>
             <li>
               <div className="btn-container">
-                <a href="https://rz-music.github.io/#/music" className="btn btn-custom">
+                <a href="/#/music" className="btn btn-custom">
                   Browse Music
                 </a>
               </div>
