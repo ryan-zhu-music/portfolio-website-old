@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;700&family=Raleway:wght@400;500;600&display=swap');
 
 :root {
+  --white: #e1e3eb;
   --blue-bg: #070c29;
   --blue-grey: #bebdd4;
   --blue-light: #c3d3dd;
@@ -13,7 +14,7 @@ body,
 html {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #fff;
+  color: var(--white);
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -28,19 +29,19 @@ h2 {
   margin: 0 0 20px;
   font-weight: 600;
   font-size: 72px;
-  color: #fff;
+  color: var(--white);
 }
 h3 {
   font-family: "Raleway", sans-serif;
   font-size: 32px;
   font-weight: 600;
-  color: #fff;
+  color: var(--white);
 }
 h4 {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
-  color: #fff;
-  font-weight: 700;
+  color: var(--white);
+  font-weight: 500;
 }
 h5 {
   font-family: "Raleway", sans-serif;
@@ -58,7 +59,7 @@ p {
 }
 
 a {
-  color: #fff;
+  color: var(--white);
   font-weight: 400;
   font-family: "Raleway";
 }
@@ -66,13 +67,16 @@ a:hover,
 a:focus {
   text-decoration: none;
 }
+a:visited {
+  color: var(--white);
+}
 ul,
 ol {
   list-style: none;
   padding: 0;
   webkit-padding: 0;
   moz-padding: 0;
-  color: #fff;
+  color: var(--white);
 }
 hr {
   height: 2px;
@@ -118,21 +122,14 @@ hr {
   border: none;
 }
 
-#site-nav a.navbar-brand {
-  font-size: 24px;
-  font-weight: 700;
-  color: #fff;
-  text-transform: uppercase;
-}
-
 #site-nav.navbar-default .navbar-nav > li .btn-container {
   margin-left: 60px;
 }
 
 #site-nav.navbar-default .navbar-nav > li > a {
-  color: #fff;
+  color: var(--white);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0;
@@ -173,7 +170,7 @@ hr {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: var(--white);
   margin-left: auto;
   margin-right: auto;
 }
@@ -205,7 +202,7 @@ hr {
   background-color: var(--blue-bg);
   -webkit-transition-property: none;
   transition-property: none;
-  color: #fff;
+  color: var(--white);
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -213,7 +210,7 @@ hr {
 }
 
 .btn-custom:hover {
-  color: #fff !important;
+  color: var(--white) !important;
 }
 
 a:focus,
@@ -243,7 +240,7 @@ a:focus,
 }
 
 .site-header__body h1 {
-  color: #fff;
+  color: var(--white);
   font-size: 82px;
   font-weight: 700;
   margin-top: 0;
@@ -262,7 +259,7 @@ a:focus,
 /* About Section */
 #site-about {
   margin-top: 150px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   min-height: 110vh;
 }
 
@@ -279,15 +276,15 @@ a:focus,
 .site-about img {
   width: 520px;
   margin-top: 10px;
-  background: #fff;
+  background: var(--white);
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
 
 /* Gallery/music Section */
 #site-music {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 150px;
+  margin-bottom: 250px;
   min-height: 110vh;
 }
 
@@ -331,7 +328,7 @@ a:focus,
   padding: 24px;
   border-radius: 50px;
   margin: auto;
-  color: #fff;
+  color: var(--white);
   transition: background-color 1s;
   min-height: 400px;
 }
@@ -343,7 +340,7 @@ a:focus,
   padding: 24px;
   border-radius: 50px;
   margin: auto;
-  color: #fff;
+  color: var(--white);
   min-height: 400px;
 }
 
@@ -460,7 +457,7 @@ label {
   font-size: 20px;
   line-height: 1.42857143;
   color: var(--blue-grey);
-  background-color: #fff;
+  background-color: var(--white);
   background-image: none;
   border: none;
   border-radius: 100px;
@@ -513,7 +510,7 @@ footer p {
   font-size: 14px;
 }
 footer a {
-  color: #fff;
+  color: var(--white);
 }
 
 .site-footer__row {
@@ -530,8 +527,10 @@ footer a {
 }
 
 .site-footer__items > li > a {
-  font-weight: 600;
+  font-weight: 400;
+  font-family: "Raleway";
   transition: all 0.5s;
+  color: var(--white);
 }
 .site-footer__items > li > a:hover {
   background-color: transparent;
@@ -580,7 +579,7 @@ footer a {
 .about__list li {
   font-size: 16;
   font-family: "Raleway";
-  color: #fff;
+  color: var(--white);
   margin: 0;
 	padding: 5px 0 5px 26px;
 	background-image: url("../img/list-dot.png");
@@ -592,6 +591,11 @@ footer a {
 /* MUSIC PAGE */
 #music-header {
   padding-top: 10vh;
+}
+
+#music-header h4 {
+  font-weight: 400;
+  color: var(--blue-grey);
 }
 
 #music__playlist .container .row {
@@ -635,7 +639,7 @@ footer a {
   margin: auto;
   height: 494px;
   padding-bottom: 50px;
-  color: #fff;
+  color: var(--white);
   transition: background-color 1s;
   width: 330px;
   display: flex;
@@ -670,7 +674,7 @@ footer a {
   transition: all 0.8s;
   background-color: var(--blue-med);
   padding: 8px 12px 0 2px;
-  color: #fff;
+  color: var(--white);
 }
 
 .music__image-container {
