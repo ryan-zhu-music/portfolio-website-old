@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { Navigation } from "./navigation";
+import { Navigation } from "./Navigation";
 import { Header } from "./music/header";
 import { Playlist } from "./music/playlist";
 import { Footer } from "./Footer";

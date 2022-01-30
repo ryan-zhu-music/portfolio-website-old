@@ -50,8 +50,8 @@ export const Footer = () => {
             <a href={footerLinks ? footerLinks.youtube : "/"} target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-youtube fa-2x"></i>
             </a>
-            <a href={footerLinks ? footerLinks.soundcloud : "/"} target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-soundcloud fa-2x"></i>
+            <a href={footerLinks ? footerLinks.github : "/"} target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-github fa-2x"></i>
             </a>
         </div>
         </div>

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { Navigation } from "./navigation";
+import { Navigation } from "./Navigation";
 import { Header } from "./about/header";
 import { Body } from "./about/body";
 import { Footer } from "./Footer";

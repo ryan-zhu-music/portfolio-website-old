@@ -20,8 +20,8 @@ export const Footer = (props) => {
                     <a href={props.data ? props.data.youtube : "/"} target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-youtube fa-2x"></i>
                     </a>
-                    <a href={props.data ? props.data.soundcloud : "/"} target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-soundcloud fa-2x"></i>
+                    <a href={props.data ? props.data.github : "/"} target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-github fa-2x"></i>
                     </a>
                 </div>
                 <div className="col-sm-3"/>

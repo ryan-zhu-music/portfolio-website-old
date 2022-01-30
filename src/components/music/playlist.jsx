@@ -3,7 +3,7 @@ import AudioPlayer from "./AudioPlayer";
 export const Playlist = (props) => {
 
     return (
-        <div id="music__playlist" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000">
+        <div id="music__playlist" data-aos="fade-up" data-aos-duration="2000">
             <div className="container">
                 <div className="row">
                         <h3>

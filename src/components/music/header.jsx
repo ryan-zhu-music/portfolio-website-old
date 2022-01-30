@@ -2,7 +2,7 @@ export const Header = (props) => {
 
     return (
         <div id="music-header">
-            <div className="container">
+            <div className="container" data-aos="fade-up" data-aos-duration="2000">
                 <div className="row text-center">
                     <h2>
                         {props.data ? props.data.title : "Music"}
@@ -12,7 +12,7 @@ export const Header = (props) => {
                     </h4>
                     <div className="btn-container" style={{marginTop: "20px"}}>
                         <a href="https://musescore.com/ryan_zhu_music" className="btn btn-custom" target="_blank" rel="noopener noreferrer">
-                            Browse Music
+                            Sheet Music
                         </a>
                     </div>
                     <hr/>

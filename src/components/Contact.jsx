@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 import "./../App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Navigation } from "./navigation";
+import { Navigation } from "./Navigation";
 import { Footer } from "./home/footer";
 
 import HomeData from "../data/home_data.json";
@@ -73,7 +73,7 @@ const Contact = (props) => {
                             id="name"
                             name="name"
                             className="site-contact__form-input"
-                            placeholder="Full Name"
+                            placeholder="Name"
                             required
                             onChange={handleChange}
                           />

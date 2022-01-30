@@ -53,7 +53,7 @@ export const Contact = (props) => {
                           id="name"
                           name="name"
                           className="site-contact__form-input"
-                          placeholder="Full Name"
+                          placeholder="Name"
                           required
                           onChange={handleChange}
                         />
