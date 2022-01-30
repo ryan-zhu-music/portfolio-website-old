@@ -15,6 +15,11 @@ const initialState = {
 };
 
 const Contact = (props) => {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    setData(HomeData);
+  }, [])
   useEffect(() => {
     AOS.init({
         duration: 700,
@@ -142,7 +147,7 @@ const Contact = (props) => {
             </div>
           </div>
         </div>
-        <Footer data={HomeData.footer}/>
+        <Footer data={data.Footer}/>
       </div>
   );
 };
