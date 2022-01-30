@@ -68,7 +68,7 @@ a:focus {
   text-decoration: none;
 }
 a:visited {
-  color: var(--white);
+  color: var(--white) !important;
 }
 ul,
 ol {

@@ -20,7 +20,7 @@ const music_data = {
   Header: {
     title: "Music",
     subtitle:
-      "My library of compositions and arrangements. Starred tracks are recommendations; my personal favourites.",
+      "My library of compositions and arrangements. Starred tracks are recommendations, my personal favourites.",
   },
   Soundtracks: {
     title: "Soundtracks",
