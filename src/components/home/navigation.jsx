@@ -16,8 +16,8 @@ export const Navigation = () => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a href="#">
-            <img src={require("../../assets/img/logo-white.png").default} className="site-nav__logo"/>
+          <a href="/">
+            <img src={require("../../assets/img/logo-white.png").default} className="site-nav__logo" alt="RZ"/>
           </a>{' '}
         </div>
 
@@ -27,7 +27,7 @@ export const Navigation = () => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#' className='page-scroll'>
+              <a href='/' className='page-scroll'>
                 Home
               </a>
             </li>

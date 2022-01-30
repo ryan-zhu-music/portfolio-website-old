@@ -1,4 +1,3 @@
-import { Image } from "./image";
 import AudioPlayer from "./AudioPlayer";
 import tracks from "../../data/tracks";
 

@@ -16,7 +16,7 @@ import IMG_ToTheLandsBeyond from "../assets/img/ToTheLandsBeyond.png";
 import IMG_Amazon from "../assets/img/Amazon.png";
 import IMG_LittleFantasySuite from "../assets/img/LittleFantasySuite.png";
 
-export default [
+const tracks = [
   [
     {
       title: "To The Lands Beyond",
@@ -66,3 +66,5 @@ export default [
     },
   ],
 ];
+
+export default tracks;
