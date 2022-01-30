@@ -60,6 +60,7 @@ p {
 a {
   color: #fff;
   font-weight: 400;
+  font-family: "Raleway";
 }
 a:hover,
 a:focus {
@@ -146,7 +147,7 @@ hr {
 }
 
 .site-nav__logo {
-  height: 62px;
+  height: 58px;
   width: auto;
 }
 
@@ -529,6 +530,7 @@ footer a {
 }
 
 .site-footer__items > li > a {
+  font-weight: 600;
   transition: all 0.5s;
 }
 .site-footer__items > li > a:hover {
@@ -577,6 +579,7 @@ footer a {
 
 .about__list li {
   font-size: 16;
+  font-family: "Raleway";
   color: #fff;
   margin: 0;
 	padding: 5px 0 5px 26px;
@@ -775,6 +778,16 @@ footer a {
   p {
     font-size: 17;
   }
+  hr {
+    height: 2px;
+    width: 90%;
+    text-align: center;
+    background: var(--blue-grey);
+    opacity: 0.17;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 0;
+  }
   #site-nav.navbar-default .navbar-nav > li .btn-container {
     margin-left: 0;
     margin-top: 20px;
@@ -815,6 +828,8 @@ footer a {
     justify-content: center;
   }
   .site-footer__logo {
+    height: 50px;
+    width: auto;
     margin-left: 50px;
     margin-right: 50px;
   }
@@ -826,12 +841,10 @@ footer a {
   .site-footer__social {
     width: 100vw;
   }
-  .about-body .container{
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-  .about-body p {
+  .about-body__row {
     text-align: justify !important;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .music__playlist-container {
     width: 256px;

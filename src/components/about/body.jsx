@@ -1,25 +1,23 @@
 
 export const Body = (props) => {
-
     return (
         <div id="about-body" data-aos="fade-up">
             <div className="container">
                 <h3>{props.data ? props.data.subtitle : "Loading..."}</h3>
-                <div className="row">
+                <div className="row about-body__row">
                     {
                         props.data ? props.data.Music.headers.map((h, i) => {
                             return (
-                                <div>
-                                    <div key={`${i}-${h}`}>
-                                        <h3>{h}</h3>
-                                        <p>{props.data.Music.paragraphs[i]}</p>
-                                    </div>
+                                <div key={`${i}-${h}`}>
+                                    <h3>{h}</h3>
+                                    <p>{props.data.Music.paragraphs[i]}</p>
                                 </div>
                             )
                         }) : "Loading..."
                     }
-                    <div>
-                        <hr />
+                </div>
+                <hr />
+                    <div className="row  about-body__row">     
                         <h3>Personal Favourites</h3>
                         <div className="col-sm-6">
                             <h4>Composers</h4>
@@ -50,8 +48,7 @@ export const Body = (props) => {
                             </ul>
                         </div>
                     </div>
-                </div>
-            <hr />
+                <hr />
             </div>
         </div>
     ); 
