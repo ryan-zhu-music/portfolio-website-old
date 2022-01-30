@@ -4,6 +4,9 @@ import "./../App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Navigation } from "./navigation";
+import { Footer } from "./home/footer";
+
+import HomeData from "../data/home_data.json";
 
 const initialState = {
   name: "",
@@ -139,6 +142,7 @@ const Contact = (props) => {
             </div>
           </div>
         </div>
+        <Footer data={HomeData.footer}/>
       </div>
   );
 };
