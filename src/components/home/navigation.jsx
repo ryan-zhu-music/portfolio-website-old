@@ -48,7 +48,7 @@ export const Navigation = () => {
             </li>
             <li>
               <div className="btn-container">
-                <a href="/music" className="btn btn-custom">
+                <a href="/#/music" className="btn btn-custom">
                   Browse Music
                 </a>
               </div>
