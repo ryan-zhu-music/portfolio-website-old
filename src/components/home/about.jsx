@@ -2,7 +2,7 @@ import profile from '../../assets/img/Profile.png';
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 export const About = (props) => {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
   return (
     <div id="site-about">

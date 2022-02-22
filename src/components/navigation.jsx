@@ -1,5 +1,4 @@
 export const Navigation = () => {
-
   return (
   <nav id='site-nav' className='navbar navbar-default'>
       <div className='container'>
@@ -17,7 +16,7 @@ export const Navigation = () => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a href="./">
-            <img src={require("../assets/img/logo-white.png").default} className="site-nav__logo"/>
+            <img src={require("../assets/img/logo-white.png").default} className="site-nav__logo" alt="RZ"/>
           </a>{' '}
         </div>
 
@@ -39,6 +38,11 @@ export const Navigation = () => {
             <li>
               <a href='/#/music' className='page-scroll'>
                 Music
+              </a>
+            </li>
+            <li>
+              <a href='/#/portfolio' className='page-scroll'>
+                Portfolio
               </a>
             </li>
             <li>

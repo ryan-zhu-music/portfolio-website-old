@@ -1,6 +1,6 @@
 function importAll(r) {
   let files = {};
-  r.keys().map((item) => {
+  r.keys().forEach((item) => {
     files[item.replace("./", "")] = r(item).default;
   });
   return files;
