@@ -14,7 +14,7 @@ export const Footer = (props) => {
                     <a href={props.data ? props.data.instagram : "/"} target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-instagram fa-2x"></i>
                     </a>
-                    <a href={props.data ? props.data.youtube : "/"} target="_blank" rel="noopener noreferrer">
+                    <a href={props.data ? props.data.discord : "/"} target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-discord fa-2x"></i>
                     </a>
                     <a href={props.data ? props.data.youtube : "/"} target="_blank" rel="noopener noreferrer">
