@@ -39,7 +39,7 @@ const Portfolio = () => {
     <div>
       <Navigation />
       <Header data={data.Header}/>
-      <About data={data.About} />
+      {/*<About data={data.About} />*/}
       <Projects data={data.Projects} />
       <Footer />
     </div>

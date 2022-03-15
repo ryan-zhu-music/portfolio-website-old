@@ -185,7 +185,7 @@ const music_data = {
         tracks: [
           {
             title: "Fugue on a Theme by Rachmaninoff",
-            source: piano["Rachmaninoff.mp3"],
+            source: piano["RachmaninoffFugue.mp3"],
             starred: true,
           },
           {
@@ -267,11 +267,15 @@ const music_data = {
           {
             title: "I - Allegro Moderato",
             source: ensemble["Concerto 1.mp3"],
-            starred: true,
           },
           {
             title: "II - Andante-Vivace",
             source: ensemble["Concerto 2.mp3"],
+          },
+          {
+            title: "III - Allegro Maestoso",
+            source: ensemble["Concerto 3.mp3"],
+            starred: true,
           },
         ],
       },
