@@ -64,14 +64,22 @@ const music_data = {
         description: "Soundtracks encapsulating the beauty of mother nature.",
         tracks: [
           {
-            title: "Amazon",
-            source: soundtracks["Amazon.mp3"],
+            title: "Windward",
+            source: soundtracks["Windward.mp3"],
             starred: true,
           },
           {
             title: "The Mist Of The Fjords",
             source: soundtracks["TheMistOfTheFjords.mp3"],
             starred: true,
+          },
+          {
+            title: "Amazon",
+            source: soundtracks["Amazon.mp3"],
+          },
+          {
+            title: "Everest",
+            source: soundtracks["Everest.mp3"],
           },
           {
             title: "Arctic Apricity",

@@ -16,10 +16,10 @@ const portfolio_data = {
     title: "Projects",
     projects: [
       {
-        name: "Teach Assist App",
+        name: "TeachAssist App",
         description:
-          "A mobile app made for YRDSB students for viewing individual marks.",
-        date: "Coming soon!",
+          "A mobile app made for YRDSB students for viewing individual marks, booking guidance appointments, and more.",
+        date: "May 2022",
         tags: [
           ["React Native", "#589DB0"],
           ["React", "#589DB0"],
@@ -32,7 +32,7 @@ const portfolio_data = {
           ["Selenium", "#43B02A"],
         ],
         image: TeachAssistApp,
-        link: "https://teach-assist-app.github.io/",
+        link: "https://teachassistapp.github.io/",
       },
       {
         name: "ChWordleBot",

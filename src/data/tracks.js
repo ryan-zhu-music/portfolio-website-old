@@ -6,7 +6,7 @@ import AceOfSpades from "../assets/audio/Ensemble/AceOfSpades.mp3";
 
 import ToTheLandsBeyond from "../assets/audio/Soundtracks/ToTheLandsBeyond.mp3";
 import Amazon from "../assets/audio/Soundtracks/Amazon.mp3";
-import LittleFantasySuite from "../assets/audio/Soundtracks/LittleFantasySuite.mp3";
+import Windward from "../assets/audio/Soundtracks/Windward.mp3";
 
 import IMG_Birthstones from "../assets/img/TheBirthstones.png";
 import IMG_RachmaninoffFugue from "../assets/img/RachmaninoffFugue.png";
@@ -14,10 +14,16 @@ import IMG_Concerto from "../assets/img/Concerto.png";
 import IMG_TheHighCards from "../assets/img/TheHighCards.png";
 import IMG_ToTheLandsBeyond from "../assets/img/ToTheLandsBeyond.png";
 import IMG_Amazon from "../assets/img/Amazon.png";
-import IMG_LittleFantasySuite from "../assets/img/LittleFantasySuite.png";
+import IMG_Windward from "../assets/img/Windward.png";
 
 const tracks = [
   [
+    {
+      title: "Windward",
+      album: "Natura",
+      source: Windward,
+      image: IMG_Windward,
+    },
     {
       title: "To The Lands Beyond",
       album: "Ancient Fantasies",
@@ -29,12 +35,6 @@ const tracks = [
       album: "Natura",
       source: Amazon,
       image: IMG_Amazon,
-    },
-    {
-      title: "Little Fantasy Suite",
-      album: "Ancient Fantasies",
-      source: LittleFantasySuite,
-      image: IMG_LittleFantasySuite,
     },
   ],
   [
