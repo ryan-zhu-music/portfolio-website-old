@@ -231,9 +231,9 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
-.site-header {
-  display: table;
-  width: 100%;
+#site-header {
+  height: 100vh;
+  width: 100vw;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -241,9 +241,10 @@ a:focus,
 }
 
 .site-header__body {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   text-align: left;
+  width: 100%;
 }
 
 .site-header__body h1 {

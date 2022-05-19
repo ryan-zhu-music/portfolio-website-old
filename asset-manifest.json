@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d8fb27a0.chunk.css",
-    "main.js": "/static/js/main.90c5b120.chunk.js",
-    "main.js.map": "/static/js/main.90c5b120.chunk.js.map",
+    "main.js": "/static/js/main.e93cd13e.chunk.js",
+    "main.js.map": "/static/js/main.e93cd13e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5efc53bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.5efc53bf.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
@@ -57,6 +57,7 @@
     "static/media/EveningAirsPrelude.mp3": "/static/media/EveningAirsPrelude.47f38fa3.mp3",
     "static/media/Everest.mp3": "/static/media/Everest.f2350107.mp3",
     "static/media/Fallen.mp3": "/static/media/Fallen.7c91f9c1.mp3",
+    "static/media/FantasiaMinore.mp3": "/static/media/FantasiaMinore.d61a3ad0.mp3",
     "static/media/HalcyonDays.mp3": "/static/media/HalcyonDays.ebc8ef69.mp3",
     "static/media/HalcyonDaysPianoTrio.mp3": "/static/media/HalcyonDaysPianoTrio.93bb0e1a.mp3",
     "static/media/LittleFantasySuite.mp3": "/static/media/LittleFantasySuite.33a82ae7.mp3",
@@ -71,10 +72,12 @@
     "static/media/PathetiqueVariations.mp3": "/static/media/PathetiqueVariations.eb132c7a.mp3",
     "static/media/PolonaiseInBMajor.mp3": "/static/media/PolonaiseInBMajor.fd53fdc7.mp3",
     "static/media/Portfolio.36648fac.png": "/static/media/Portfolio.36648fac.png",
+    "static/media/PreludeAFlatMajor.mp3": "/static/media/PreludeAFlatMajor.5e5dd9b6.mp3",
     "static/media/Profile.d56ff844.png": "/static/media/Profile.d56ff844.png",
     "static/media/RachmaninoffFugue.3f0b5552.png": "/static/media/RachmaninoffFugue.3f0b5552.png",
     "static/media/RachmaninoffFugue.mp3": "/static/media/RachmaninoffFugue.efe6fbf2.mp3",
     "static/media/RebirthPrelude.mp3": "/static/media/RebirthPrelude.17c3c304.mp3",
+    "static/media/Rhapsody1.mp3": "/static/media/Rhapsody1.2c50e92d.mp3",
     "static/media/SacrificePrelude.mp3": "/static/media/SacrificePrelude.d1ade44c.mp3",
     "static/media/Sail.mp3": "/static/media/Sail.4a9ec5ce.mp3",
     "static/media/TaikoPhase.mp3": "/static/media/TaikoPhase.284699db.mp3",
@@ -87,6 +90,7 @@
     "static/media/ToTheStars.mp3": "/static/media/ToTheStars.59e04ef4.mp3",
     "static/media/Waltz No.1.mp3": "/static/media/Waltz No.1.290f4784.mp3",
     "static/media/Waltz No.2.mp3": "/static/media/Waltz No.2.97e27f85.mp3",
+    "static/media/WaltzAFlatMinor.mp3": "/static/media/WaltzAFlatMinor.c0952ccd.mp3",
     "static/media/WaltzInAFlatMajor.mp3": "/static/media/WaltzInAFlatMajor.a05fae6a.mp3",
     "static/media/WeWishYouAMerryChristmasFugue.mp3": "/static/media/WeWishYouAMerryChristmasFugue.4d1d070f.mp3",
     "static/media/Windward.901243e2.png": "/static/media/Windward.901243e2.png",
@@ -99,6 +103,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.15247c34.chunk.js",
     "static/css/main.d8fb27a0.chunk.css",
-    "static/js/main.90c5b120.chunk.js"
+    "static/js/main.e93cd13e.chunk.js"
   ]
 }
