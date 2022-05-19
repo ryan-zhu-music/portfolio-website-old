@@ -62,7 +62,7 @@ const portfolio_data = {
       {
         name: "MuseScore Statistics.py",
         description:
-          "An API that returns statistics (total and average views, favourites, etc.) from a user's MuseScore page. Currently unavailable for public use.",
+          "An API that returns statistics (total and average views, favourites, etc.) from a user's MuseScore page.",
         date: "December 2021",
         tags: [
           ["Python3", "#B59A51"],
@@ -70,6 +70,15 @@ const portfolio_data = {
           ["Selenium", "#43B02A"],
         ],
         image: MuseScoreStatistics,
+      },
+      {
+        name: "RZ Music",
+        description:
+          "My public musician persona. Hundreds of sheet music including arrangements and compositions.",
+        date: "February 2020",
+        tags: [],
+        image: MuseScoreStatistics,
+        link: "https://musescore.com/ryan_zhu_music",
       },
     ],
   },

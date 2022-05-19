@@ -312,6 +312,29 @@ const music_data = {
         ],
       },
       {
+        title: "Arrangements",
+        description:
+          "Orchestral arrangements of my friends' piano compositions.",
+        tracks: [
+          {
+            title: "C.G. - Fantasia Minore",
+            source: ensemble["FantasiaMinore.mp3"],
+          },
+          {
+            title: "W.L. - Rhapsody No. 1",
+            source: ensemble["Rhapsody1.mp3"],
+          },
+          {
+            title: "D.H.L. - Waltz in A Flat Minor",
+            source: ensemble["WaltzAFlatMinor.mp3"],
+          },
+          {
+            title: "D.D. - Prelude in A Flat Major",
+            source: ensemble["PreludeAFlatMajor.mp3"],
+          },
+        ],
+      },
+      {
         title: "Suite of the Elements",
         description:
           "An orchestral suite, inspired by the four elements of nature.",

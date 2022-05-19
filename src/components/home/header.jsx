@@ -2,8 +2,7 @@ import TypeAnimation from 'react-type-animation';
 
 export const Header = (props) => {
   return (
-    <header id="header">
-      <div className="site-header">
+      <header id="site-header">
         <div className="container">
           <div className="row">
             <div className="col-sm-9 site-header__body">
@@ -14,12 +13,9 @@ export const Header = (props) => {
               />
               <p data-aos="fade-up" data-aos-delay="3000">{props.data ? props.data.paragraph : "Loading"}</p>
             </div>
-            <div className="col-sm-3">
-              {/*image stuff here*/}
-            </div>
+            <div className="col-sm-3"/>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
   );
 };
