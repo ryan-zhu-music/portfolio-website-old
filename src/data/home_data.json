@@ -4,7 +4,8 @@
     "paragraph": "I'm a high school student and musician in Ontario, Canada. Read on to learn more about me!"
   },
   "About": {
-    "paragraph": "I am a high school student who enjoys coding and composing music. I am currently exploring web and app development in my free time, and planning on pursuing a career in a computer science field. I also have a hobby in composing and music; I have experimented with composing in many different styles of music, which are all available below."
+    "paragraph": "I am a high school student who enjoys coding and composing music. I am currently exploring web and app development in my free time, and planning on pursuing a career in a computer science field. I also have a hobby in composing and music; I have experimented with composing in many different styles of music, which are all available below. Want to support me? ",
+    "link": ["Buy me a coffee! ☕", "https://www.buymeacoffee.com/ryanzhu"]
   },
   "Music": {
     "paragraph": "Browse through my library of original compositions and arrangements, spanning various styles including Classicism, Romanticism, Impressionism, and Modernism.",

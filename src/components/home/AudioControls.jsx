@@ -1,12 +1,17 @@
 import React from "react";
-import { BsSkipBackwardFill, BsSkipForwardFill, BsFillPlayFill, BsFillPauseFill } from "react-icons/bs";
+import {
+  BsSkipBackwardFill,
+  BsSkipForwardFill,
+  BsFillPlayFill,
+  BsFillPauseFill,
+} from "react-icons/bs";
 
 const AudioControls = ({
   isPlaying,
   onPlayPauseClick,
   onPrevClick,
   onNextClick,
-  width
+  width,
 }) => (
   <div className="site-music__audio-controls">
     <button
@@ -15,7 +20,7 @@ const AudioControls = ({
       aria-label="Previous"
       onClick={onPrevClick}
     >
-      <BsSkipBackwardFill size={width > 700 ? 28 : 20}/>
+      <BsSkipBackwardFill size={width > 700 ? 28 : 20} />
     </button>
     {isPlaying ? (
       <button
@@ -24,7 +29,7 @@ const AudioControls = ({
         onClick={() => onPlayPauseClick(false)}
         aria-label="Pause"
       >
-        <BsFillPauseFill size={width > 700 ? 28 : 20}/>
+        <BsFillPauseFill size={width > 700 ? 28 : 20} />
       </button>
     ) : (
       <button
@@ -33,7 +38,7 @@ const AudioControls = ({
         onClick={() => onPlayPauseClick(true)}
         aria-label="Play"
       >
-        <BsFillPlayFill size={width > 700 ? 28 : 20}/>
+        <BsFillPlayFill size={width > 700 ? 28 : 20} />
       </button>
     )}
     <button
@@ -42,7 +47,7 @@ const AudioControls = ({
       aria-label="Next"
       onClick={onNextClick}
     >
-      <BsSkipForwardFill size={width > 700 ? 28 : 20}/>
+      <BsSkipForwardFill size={width > 700 ? 28 : 20} />
     </button>
   </div>
 );

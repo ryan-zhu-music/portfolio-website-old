@@ -1,52 +1,56 @@
 export const Navigation = () => {
   return (
-  <nav id='site-nav' className='navbar navbar-default'>
-      <div className='container'>
-        <div className='navbar-header'>
+    <nav id="site-nav" className="navbar navbar-default">
+      <div className="container">
+        <div className="navbar-header">
           <button
-            type='button'
-            className='navbar-toggle collapsed'
-            data-toggle='collapse'
-            data-target='#bs-example-navbar-collapse-1'
+            type="button"
+            className="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
           >
-            {' '}
-            <span className='sr-only'>Toggle navigation</span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
+            {" "}
+            <span className="sr-only">Toggle navigation</span>{" "}
+            <span className="icon-bar"></span>{" "}
+            <span className="icon-bar"></span>{" "}
+            <span className="icon-bar"></span>{" "}
           </button>
           <a href="./">
-            <img src={require("../assets/img/logo-white.png").default} className="site-nav__logo" alt="RZ"/>
-          </a>{' '}
+            <img
+              src={require("../assets/img/logo-white.png").default}
+              className="site-nav__logo"
+              alt="RZ"
+            />
+          </a>{" "}
         </div>
 
         <div
-          className='collapse navbar-collapse'
-          id='bs-example-navbar-collapse-1'
+          className="collapse navbar-collapse"
+          id="bs-example-navbar-collapse-1"
         >
-          <ul className='nav navbar-nav navbar-right'>
+          <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href='/' className='page-scroll'>
+              <a href="/" className="page-scroll">
                 Home
               </a>
             </li>
             <li>
-              <a href='/#/about' className='page-scroll'>
+              <a href="/#/about" className="page-scroll">
                 About
               </a>
             </li>
             <li>
-              <a href='/#/music' className='page-scroll'>
+              <a href="/#/music" className="page-scroll">
                 Music
               </a>
             </li>
             <li>
-              <a href='/#/portfolio' className='page-scroll'>
+              <a href="/#/portfolio" className="page-scroll">
                 Portfolio
               </a>
             </li>
             <li>
-              <a href='/#/contact' className='page-scroll'>
+              <a href="/#/contact" className="page-scroll">
                 Contact
               </a>
             </li>
@@ -61,5 +65,5 @@ export const Navigation = () => {
         </div>
       </div>
     </nav>
-  )
+  );
 };

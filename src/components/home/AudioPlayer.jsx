@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import AudioControls from "./AudioControls";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
-const AudioPlayer = ({tracks}) => {
+const AudioPlayer = ({ tracks }) => {
   // State
   const [trackIndex, setTrackIndex] = useState(0);
   const [trackProgress, setTrackProgress] = useState(0);
@@ -36,7 +36,7 @@ const AudioPlayer = ({tracks}) => {
   };
 
   const onScrub = (value) => {
-      setIsPlaying(false);
+    setIsPlaying(false);
     clearInterval(intervalRef.current);
     audioRef.current.currentTime = value;
     setTrackProgress(audioRef.current.currentTime);
@@ -94,42 +94,48 @@ const AudioPlayer = ({tracks}) => {
     };
   }, []);
 
-  const { height, width} = useWindowDimensions()
+  const { height, width } = useWindowDimensions();
 
   return (
-      <div className="site-music__audio-player-container">
-        <div className={isPlaying ? "site-music__audio-player-active" : "site-music__audio-player"}>
-            <div className="site-music__track-info">
-                <div className="site-music__image-container">
-                    <img
-                        className="site-music__image"
-                        src={image}
-                        alt={`Track artwork for ${title} by ${album}`}
-                    />
-                </div>
-                <h2 className="site-music__title">{title}</h2>
-                <h3 className="site-music__album">{album}</h3>
-                <AudioControls
-                    isPlaying={isPlaying}
-                    onPrevClick={toPrevTrack}
-                    onNextClick={toNextTrack}
-                    onPlayPauseClick={setIsPlaying}
-                    width={width}
-                />
-                <input
-                    type="range"
-                    value={trackProgress}
-                    step="1"
-                    min="0"
-                    max={duration ? duration : `${duration}`}
-                    className="site-music__progress"
-                    onChange={(e) => onScrub(e.target.value)}
-                    onMouseUp={onScrubEnd}
-                    onKeyUp={onScrubEnd}
-                    style={{ background: trackStyling }}
-                />
-            </div>
+    <div className="site-music__audio-player-container">
+      <div
+        className={
+          isPlaying
+            ? "site-music__audio-player-active"
+            : "site-music__audio-player"
+        }
+      >
+        <div className="site-music__track-info">
+          <div className="site-music__image-container">
+            <img
+              className="site-music__image"
+              src={image}
+              alt={`Track artwork for ${title} by ${album}`}
+            />
+          </div>
+          <h2 className="site-music__title">{title}</h2>
+          <h3 className="site-music__album">{album}</h3>
+          <AudioControls
+            isPlaying={isPlaying}
+            onPrevClick={toPrevTrack}
+            onNextClick={toNextTrack}
+            onPlayPauseClick={setIsPlaying}
+            width={width}
+          />
+          <input
+            type="range"
+            value={trackProgress}
+            step="1"
+            min="0"
+            max={duration ? duration : `${duration}`}
+            className="site-music__progress"
+            onChange={(e) => onScrub(e.target.value)}
+            onMouseUp={onScrubEnd}
+            onKeyUp={onScrubEnd}
+            style={{ background: trackStyling }}
+          />
         </div>
+      </div>
     </div>
   );
 };

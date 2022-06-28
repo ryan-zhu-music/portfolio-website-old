@@ -23,9 +23,9 @@ const About = () => {
   }, []);
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  
+    window.scrollTo(0, 0);
+  }, []);
+
   useEffect(() => {
     AOS.init({
       duration: 700,
@@ -37,7 +37,7 @@ const About = () => {
   return (
     <div>
       <Navigation />
-      <Header data={data.Header}/>
+      <Header data={data.Header} />
       <Body data={data.Body} />
       <Footer />
     </div>

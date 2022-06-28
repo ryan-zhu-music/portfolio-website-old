@@ -21,6 +21,11 @@ const music_data = {
     title: "Music",
     subtitle:
       "My library of compositions and arrangements. Starred tracks are recommendations, my personal favourites.",
+    link: [
+      "Want to support me? ",
+      "Buy me a coffee! ☕",
+      "https://www.buymeacoffee.com/ryanzhu",
+    ],
   },
   Soundtracks: {
     title: "Soundtracks",

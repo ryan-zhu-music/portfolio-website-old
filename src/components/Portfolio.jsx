@@ -24,9 +24,9 @@ const Portfolio = () => {
   }, []);
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  
+    window.scrollTo(0, 0);
+  }, []);
+
   useEffect(() => {
     AOS.init({
       duration: 700,
@@ -38,7 +38,7 @@ const Portfolio = () => {
   return (
     <div>
       <Navigation />
-      <Header data={data.Header}/>
+      <Header data={data.Header} />
       {/*<About data={data.About} />*/}
       <Projects data={data.Projects} />
       <Footer />

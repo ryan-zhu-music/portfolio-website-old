@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import AudioControls from "./AudioControls";
-import { BsFillStarFill } from 'react-icons/bs';
+import { BsFillStarFill } from "react-icons/bs";
 
-const AudioPlayer = ({tracks}) => {
+const AudioPlayer = ({ tracks }) => {
   // State
   const [trackProgress, setTrackProgress] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -36,7 +36,7 @@ const AudioPlayer = ({tracks}) => {
   };
 
   const onScrub = (value) => {
-      setIsPlaying(false);
+    setIsPlaying(false);
     clearInterval(intervalRef.current);
     audioRef.current.currentTime = value;
     setTrackProgress(audioRef.current.currentTime);
@@ -64,38 +64,38 @@ const AudioPlayer = ({tracks}) => {
   }, []);
 
   return (
-      <div className="music__audio-player-container">
-        <div className={isPlaying ? "music__audio-player-active" : "music__audio-player"}>
-            <div className="music__track">
-                <div className="music__title">
-                  <h4>{title}</h4>
-                  {
-                    starred ? 
-                    <BsFillStarFill size={"15px"}/> : 
-                    null
-                  }
-                </div>
-                <div className="music__play">
-                  <AudioControls
-                      isPlaying={isPlaying}
-                      onPlayPauseClick={setIsPlaying}
-                  />
-                  <input
-                      type="range"
-                      value={trackProgress}
-                      step="1"
-                      min="0"
-                      max={duration ? duration : `${duration}`}
-                      className="music__progress"
-                      onChange={(e) => onScrub(e.target.value)}
-                      onMouseUp={onScrubEnd}
-                      onKeyUp={onScrubEnd}
-                      style={{ background: trackStyling }}
-                  />
-                </div>
-                <hr/>
-            </div>
+    <div className="music__audio-player-container">
+      <div
+        className={
+          isPlaying ? "music__audio-player-active" : "music__audio-player"
+        }
+      >
+        <div className="music__track">
+          <div className="music__title">
+            <h4>{title}</h4>
+            {starred ? <BsFillStarFill size={"15px"} /> : null}
+          </div>
+          <div className="music__play">
+            <AudioControls
+              isPlaying={isPlaying}
+              onPlayPauseClick={setIsPlaying}
+            />
+            <input
+              type="range"
+              value={trackProgress}
+              step="1"
+              min="0"
+              max={duration ? duration : `${duration}`}
+              className="music__progress"
+              onChange={(e) => onScrub(e.target.value)}
+              onMouseUp={onScrubEnd}
+              onKeyUp={onScrubEnd}
+              style={{ background: trackStyling }}
+            />
+          </div>
+          <hr />
         </div>
+      </div>
     </div>
   );
 };

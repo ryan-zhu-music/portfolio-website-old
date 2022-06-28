@@ -8,7 +8,13 @@ export const Footer = () => {
       <div className="container">
         <div className="row site-footer__row">
           <div className="col-sm-2">
-              <a href="/"><img src={require("../assets/img/logo-white.png").default} className="site-footer__logo" alt="RZ"/></a>
+            <a href="/">
+              <img
+                src={require("../assets/img/logo-white.png").default}
+                className="site-footer__logo"
+                alt="RZ"
+              />
+            </a>
           </div>
           <nav className="col-sm-5">
             <ul className="nav navbar-nav site-footer__items">
@@ -40,25 +46,49 @@ export const Footer = () => {
             </ul>
           </nav>
           <div className="col-sm-5 site-footer__social">
-            <a href={footerLinks ? footerLinks.facebook : "/"} target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-facebook fa-2x"></i>
+            <a
+              href={footerLinks ? footerLinks.facebook : "/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-facebook fa-2x"></i>
             </a>
-            <a href={footerLinks ? footerLinks.twitter : "/"} target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-twitter fa-2x"></i>
+            <a
+              href={footerLinks ? footerLinks.twitter : "/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-twitter fa-2x"></i>
             </a>
-            <a href={footerLinks ? footerLinks.instagram : "/"} target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-instagram fa-2x"></i>
+            <a
+              href={footerLinks ? footerLinks.instagram : "/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-instagram fa-2x"></i>
             </a>
-            <a href={footerLinks ? footerLinks.discord : "/"} target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-discord fa-2x"></i>
+            <a
+              href={footerLinks ? footerLinks.discord : "/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-discord fa-2x"></i>
             </a>
-            <a href={footerLinks ? footerLinks.youtube : "/"} target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-youtube fa-2x"></i>
+            <a
+              href={footerLinks ? footerLinks.youtube : "/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-youtube fa-2x"></i>
             </a>
-            <a href={footerLinks ? footerLinks.github : "/"} target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-github fa-2x"></i>
+            <a
+              href={footerLinks ? footerLinks.github : "/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-github fa-2x"></i>
             </a>
-        </div>
+          </div>
         </div>
       </div>
     </footer>

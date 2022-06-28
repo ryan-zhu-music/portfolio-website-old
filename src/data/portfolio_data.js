@@ -1,8 +1,10 @@
 import Placeholder from "../assets/img/Placeholder.png";
+import TheBrainScramble from "../assets/img/TheBrainScramble.png";
 import TeachAssistApp from "../assets/img/TeachAssistApp.png";
 import Portfolio from "../assets/img/Portfolio.png";
 import ChWordle from "../assets/img/ChWordle.png";
 import MuseScoreStatistics from "../assets/img/MuseScore Statistics.png";
+import RZMusic from "../assets/img/RZMusic.png";
 
 const portfolio_data = {
   Header: {
@@ -15,6 +17,18 @@ const portfolio_data = {
   Projects: {
     title: "Projects",
     projects: [
+      {
+        name: "The BrainScramble",
+        description: "An online magazine for young writers and artists.",
+        date: "June 2022",
+        tags: [
+          ["Wordpress", "#21759B"],
+          ["HTML5", "#E34C26"],
+          ["CSS3", "#264DE4"],
+        ],
+        image: TheBrainScramble,
+        link: "https://thebrainscramble.com/",
+      },
       {
         name: "TeachAssist App",
         description:
@@ -77,7 +91,7 @@ const portfolio_data = {
           "My public musician persona. Hundreds of sheet music including arrangements and compositions.",
         date: "February 2020",
         tags: [],
-        image: MuseScoreStatistics,
+        image: RZMusic,
         link: "https://musescore.com/ryan_zhu_music",
       },
     ],
