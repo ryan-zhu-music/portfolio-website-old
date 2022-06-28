@@ -69,6 +69,7 @@ a {
   color: var(--white);
   font-weight: 400;
   font-family: "Raleway";
+  transition: 0.4s all;
 }
 a:hover,
 a:focus {
@@ -280,6 +281,14 @@ a:focus,
 
 .site-about__body p {
   font-size: 20;
+}
+
+.site-about__body p > a {
+  font-family: "IBM Plex Sans KR";
+}
+
+.site-about__body p > a:hover {
+  color: var(--blue-dark) !important;
 }
 
 .site-about img {
@@ -605,6 +614,14 @@ footer a {
 #music-header h4 {
   font-weight: 400;
   color: var(--blue-grey);
+}
+
+#music-header a {
+  font-family: "Raleway";
+}
+
+#music-header a:hover {
+  color: var(--blue-dark) !important;
 }
 
 #music__playlist .container .row {
