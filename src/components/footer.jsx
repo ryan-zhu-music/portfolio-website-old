@@ -75,11 +75,11 @@ export const Footer = () => {
               <i className="fab fa-discord fa-2x"></i>
             </a>
             <a
-              href={footerLinks ? footerLinks.youtube : "/"}
+              href={footerLinks ? footerLinks.linkedin : "/"}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-youtube fa-2x"></i>
+              <i className="fab fa-linkedin fa-2x"></i>
             </a>
             <a
               href={footerLinks ? footerLinks.github : "/"}

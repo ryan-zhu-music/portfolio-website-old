@@ -5,7 +5,7 @@ export const Header = (props) => {
         <div className="row text-center">
           <h2>{props.data ? props.data.title : "Music"}</h2>
           <h4>{props.data ? props.data.subtitle : "Loading..."}</h4>
-          <p>
+          <h5>
             {props.data ? props.data.link[0] : ""}
             <a
               href={props.data ? props.data.link[2] : "/"}
@@ -14,7 +14,7 @@ export const Header = (props) => {
             >
               {props.data ? props.data.link[1] : ""}
             </a>
-          </p>
+          </h5>
           <div className="btn-container" style={{ marginTop: "20px" }}>
             <a
               href="https://musescore.com/ryan_zhu_music"
