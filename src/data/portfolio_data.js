@@ -90,7 +90,13 @@ const portfolio_data = {
         description:
           "My public musician persona. Hundreds of sheet music including arrangements and compositions.",
         date: "February 2020",
-        tags: [],
+        tags: [
+          ["Spotify", "#1DB954"],
+          ["MuseScore", "#196AAF"],
+          ["Soundcloud", "#FE6D35"],
+          ["Instagram", "#DD2A7B"],
+          ["YouTube", "#FF0000"],
+        ],
         image: RZMusic,
         link: "https://musescore.com/ryan_zhu_music",
       },
