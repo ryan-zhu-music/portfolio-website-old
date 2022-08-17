@@ -51,6 +51,10 @@ const music_data = {
             starred: true,
           },
           {
+            title: "Sail!",
+            source: soundtracks["Sail.mp3"],
+          },
+          {
             title: "Fallen",
             source: soundtracks["Fallen.mp3"],
           },
@@ -101,8 +105,9 @@ const music_data = {
         description: "Miscellaneous soundtracks.",
         tracks: [
           {
-            title: "Sail!",
-            source: soundtracks["Sail.mp3"],
+            title: "Silvergreen",
+            source: soundtracks["Silvergreen.mp3"],
+            starred: true,
           },
           {
             title: "Arcane Abyss",
