@@ -5,6 +5,16 @@ export const Header = (props) => {
         <div className="row text-center">
           <h2>{props.data ? props.data.title : "Portfolio"}</h2>
           <h4>{props.data ? props.data.subtitle : "Loading..."}</h4>
+          <div className="btn-container" style={{ marginTop: "20px" }}>
+            <a
+              href="/resume.pdf"
+              className="btn btn-custom"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </div>
           <hr />
         </div>
       </div>
