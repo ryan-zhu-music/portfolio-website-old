@@ -4,19 +4,19 @@ import RachmaninoffFugue from "../assets/audio/Piano/RachmaninoffFugue.mp3";
 import Concerto3 from "../assets/audio/Ensemble/Concerto 3.mp3";
 import AceOfSpades from "../assets/audio/Ensemble/AceOfSpades.mp3";
 
-import ToTheLandsBeyond from "../assets/audio/Soundtracks/ToTheLandsBeyond.mp3";
+import Silvergreen from "../assets/audio/Soundtracks/Silvergreen.mp3";
 import Amazon from "../assets/audio/Soundtracks/Amazon.mp3";
 import Windward from "../assets/audio/Soundtracks/Windward.mp3";
 
-import IMG_Birthstones from "../assets/img/TheBirthstones.png";
-import IMG_RachmaninoffFugue from "../assets/img/RachmaninoffFugue.png";
-import IMG_Concerto from "../assets/img/Concerto.png";
-import IMG_TheHighCards from "../assets/img/TheHighCards.png";
-import IMG_ToTheLandsBeyond from "../assets/img/ToTheLandsBeyond.png";
-import IMG_Amazon from "../assets/img/Amazon.png";
-import IMG_Windward from "../assets/img/Windward.png";
+import IMG_Birthstones from "../assets/images/TheBirthstones.png";
+import IMG_RachmaninoffFugue from "../assets/images/RachmaninoffFugue.png";
+import IMG_Concerto from "../assets/images/Concerto.png";
+import IMG_TheHighCards from "../assets/images/TheHighCards.png";
+import IMG_Silvergreen from "../assets/images/Silvergreen.png";
+import IMG_Amazon from "../assets/images/Amazon.png";
+import IMG_Windward from "../assets/images/Windward.png";
 
-const tracks = [
+export const tracks = [
   [
     {
       title: "Windward",
@@ -25,10 +25,10 @@ const tracks = [
       image: IMG_Windward,
     },
     {
-      title: "To The Lands Beyond",
-      album: "Ancient Fantasies",
-      source: ToTheLandsBeyond,
-      image: IMG_ToTheLandsBeyond,
+      title: "Silvergreen",
+      album: "Medieval Times",
+      source: Silvergreen,
+      image: IMG_Silvergreen,
     },
     {
       title: "Amazon",
@@ -54,7 +54,7 @@ const tracks = [
   [
     {
       title: "III - Allegro Maestoso",
-      album: "Concerto in C for Piano and Orchestra",
+      album: "Piano Concerto in C Major",
       source: Concerto3,
       image: IMG_Concerto,
     },
@@ -67,4 +67,14 @@ const tracks = [
   ],
 ];
 
-export default tracks;
+export const players = [
+  {
+    title: "Soundtracks",
+  },
+  {
+    title: "Piano",
+  },
+  {
+    title: "Ensemble",
+  },
+];

@@ -1,10 +1,9 @@
-import Placeholder from "../assets/img/Placeholder.png";
-import TheBrainScramble from "../assets/img/TheBrainScramble.png";
-import TeachAssistApp from "../assets/img/TeachAssistApp.png";
-import Portfolio from "../assets/img/Portfolio.png";
-import ChWordle from "../assets/img/ChWordle.png";
-import MuseScoreStatistics from "../assets/img/MuseScore Statistics.png";
-import RZMusic from "../assets/img/RZMusic.png";
+import TheBrainScramble from "../assets/images/TheBrainScramble.png";
+import TeachAssistApp from "../assets/images/TeachAssistApp.png";
+import Portfolio from "../assets/images/Portfolio Website.png";
+import ChWordle from "../assets/images/ChWordle.png";
+import MuseScoreStatistics from "../assets/images/MuseScore Statistics.png";
+import RZMusic from "../assets/images/RZMusic.png";
 
 const portfolio_data = {
   Header: {

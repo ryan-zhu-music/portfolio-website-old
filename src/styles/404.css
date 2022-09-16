@@ -1,0 +1,24 @@
+#not-found {
+  background: linear-gradient(
+    42.12deg,
+    #f1a2a2 8.81%,
+    #ffd5bd 24.02%,
+    #fff3ca 48.05%,
+    #ffdabd 66.19%,
+    #ffc1c5 78.54%
+  );
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#not-found h2 {
+  margin-bottom: 25px;
+}
+
+#not-found p {
+  margin-bottom: 5px;
+}

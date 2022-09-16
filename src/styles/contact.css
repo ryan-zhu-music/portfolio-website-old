@@ -1,0 +1,24 @@
+#contact-page {
+  width: 100vw;
+  background: linear-gradient(
+    112.14deg,
+    rgba(128, 196, 205, 0.68) -50.2%,
+    rgba(112, 129, 214, 0.477341) -11.67%,
+    rgba(122, 220, 220, 0.53) 27.88%,
+    rgba(226, 158, 250, 0.497914) 62.84%,
+    rgba(252, 157, 214, 0.47) 79.49%
+  );
+  position: absolute;
+  top: 0;
+}
+
+@media only screen and (max-width < 768px) {
+  #contact-page {
+    padding: 0 5vw;
+    width: 100vw;
+  }
+
+  #contact {
+    width: 100%;
+  }
+}
