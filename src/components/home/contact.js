@@ -13,6 +13,7 @@ const initialState = {
 
 const Contact = () => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -34,6 +35,7 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           clearState();
+          setSubmitted(true);
         },
         (error) => {
           console.log(error.text);
@@ -147,7 +149,7 @@ const Contact = () => {
             <p className="help-block text-danger"></p>
           </div>
           <button type="submit" className="btn">
-            Send!
+            {submitted ? "Sent!" : "Send?"}
           </button>
         </form>
       </div>
