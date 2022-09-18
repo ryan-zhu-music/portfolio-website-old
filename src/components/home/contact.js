@@ -64,7 +64,7 @@ const Contact = () => {
           {socials.map((social) => (
             <li key={social.name}>
               <a
-                href={social.link}
+                href={social.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social"

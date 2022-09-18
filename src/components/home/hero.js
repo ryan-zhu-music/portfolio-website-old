@@ -12,7 +12,7 @@ const Hero = () => {
       <ul className="socials">
         {socials.map((social) => (
           <li key={social.name}>
-            <a href={social.link} target="_blank" rel="noopener noreferrer">
+            <a href={social.url} target="_blank" rel="noopener noreferrer">
               {social.component}
             </a>
           </li>
