@@ -44,11 +44,13 @@ h4,
 input,
 textarea {
   font-family: "Montserrat", sans-serif;
+  color: #393838;
 }
 
 p {
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.06em;
+  color: #4a4a4a;
 }
 
 a,
@@ -57,6 +59,7 @@ button {
   text-decoration: none;
   font-weight: 500;
   transition: all 0.5s;
+  color: #4a4a4a;
 }
 
 body {
