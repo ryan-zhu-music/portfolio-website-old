@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.72effa64.chunk.css",
-    "main.js": "/static/js/main.71e25502.chunk.js",
-    "main.js.map": "/static/js/main.71e25502.chunk.js.map",
+    "main.js": "/static/js/main.226aff27.chunk.js",
+    "main.js.map": "/static/js/main.226aff27.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5efc53bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.5efc53bf.js.map",
     "static/js/2.8d460dc9.chunk.js": "/static/js/2.8d460dc9.chunk.js",
@@ -66,6 +66,7 @@
     "static/media/Macbeth IV.mp3": "/static/media/Macbeth IV.30d64618.mp3",
     "static/media/Macbeth V.mp3": "/static/media/Macbeth V.cad4fe0d.mp3",
     "static/media/MinimalismEtude.mp3": "/static/media/MinimalismEtude.23800de8.mp3",
+    "static/media/MuseBench.f2611c40.png": "/static/media/MuseBench.f2611c40.png",
     "static/media/MuseScore Statistics.d41aaef3.png": "/static/media/MuseScore Statistics.d41aaef3.png",
     "static/media/NocturneInFMinor.mp3": "/static/media/NocturneInFMinor.1e46bcd6.mp3",
     "static/media/PathetiqueVariations.mp3": "/static/media/PathetiqueVariations.eb132c7a.mp3",
@@ -77,6 +78,7 @@
     "static/media/RZMusic.35629450.png": "/static/media/RZMusic.35629450.png",
     "static/media/RachmaninoffFugue.3f0b5552.png": "/static/media/RachmaninoffFugue.3f0b5552.png",
     "static/media/RachmaninoffFugue.mp3": "/static/media/RachmaninoffFugue.efe6fbf2.mp3",
+    "static/media/ReactMusicKeyboard.b77b9988.png": "/static/media/ReactMusicKeyboard.b77b9988.png",
     "static/media/RebirthPrelude.mp3": "/static/media/RebirthPrelude.17c3c304.mp3",
     "static/media/Rhapsody1.mp3": "/static/media/Rhapsody1.2c50e92d.mp3",
     "static/media/Ryan Zhu.cf2cad7b.png": "/static/media/Ryan Zhu.cf2cad7b.png",
@@ -105,6 +107,6 @@
     "static/js/runtime-main.5efc53bf.js",
     "static/js/2.8d460dc9.chunk.js",
     "static/css/main.72effa64.chunk.css",
-    "static/js/main.71e25502.chunk.js"
+    "static/js/main.226aff27.chunk.js"
   ]
 }
