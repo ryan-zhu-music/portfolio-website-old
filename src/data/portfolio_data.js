@@ -1,3 +1,5 @@
+import MuseBench from "../assets/images/MuseBench.png";
+import ReactMusicKeyboard from "../assets/images/ReactMusicKeyboard.png";
 import TheBrainScramble from "../assets/images/TheBrainScramble.png";
 import TeachAssistApp from "../assets/images/TeachAssistApp.png";
 import Portfolio from "../assets/images/Portfolio Website.png";
@@ -16,6 +18,33 @@ const portfolio_data = {
   Projects: {
     title: "Projects",
     projects: [
+      {
+        name: "MuseBench",
+        description:
+          "An interactive digital benchmark tool for training your musical skills through your ears.",
+        date: "October 2022",
+        tags: [
+          ["Next", "#000"],
+          ["Tailwind CSS", "#38bdf8"],
+          ["TypeScript", "#007acc"],
+          ["Firebase", "#ffa611"],
+        ],
+        image: MuseBench,
+        link: "https://musebench.vercel.app/",
+      },
+      {
+        name: "react-music-keyboard",
+        description:
+          "A simple easy-to-use and highly customizable React component emulating a musical keyboard.",
+        date: "September 2021",
+        tags: [
+          ["React", "#61dafb"],
+          ["TypeScript", "#007acc"],
+          ["npm", "#cb3837"],
+        ],
+        image: ReactMusicKeyboard,
+        link: "https://www.npmjs.com/package/react-music-keyboard",
+      },
       {
         name: "The BrainScramble",
         description: "An online magazine for young writers and artists.",
