@@ -36,7 +36,7 @@ const portfolio_data = {
         name: "react-music-keyboard",
         description:
           "A simple easy-to-use and highly customizable React component emulating a musical keyboard.",
-        date: "September 2021",
+        date: "September 2022",
         tags: [
           ["React", "#61dafb"],
           ["TypeScript", "#007acc"],
