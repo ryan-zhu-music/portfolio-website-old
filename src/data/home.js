@@ -5,6 +5,7 @@ import {
   faGithub,
   faLinkedin,
   faInstagram,
+  faTwitter,
   faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -23,6 +24,11 @@ export const socials = [
     name: "Instagram",
     url: "https://www.instagram.com/r.y.a.n.z.h.u/",
     component: <FontAwesomeIcon icon={faInstagram} size="1x" />,
+  },
+  {
+    name: "Twitter",
+    url: "https://twitter.com/ryanzhumusic",
+    component: <FontAwesomeIcon icon={faTwitter} size="1x" />,
   },
   {
     name: "Discord",

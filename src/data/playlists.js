@@ -91,14 +91,24 @@ const music_data = {
         ],
       },
       {
-        title: "Other",
-        description: "Miscellaneous soundtracks.",
+        title: "Medieval Times",
+        description: "Soundtracks inspired by medieval scenes.",
         tracks: [
+          {
+            title: "First Light",
+            source: soundtracks["FirstLight.mp3"],
+          },
           {
             title: "Silvergreen",
             source: soundtracks["Silvergreen.mp3"],
             starred: true,
           },
+        ]
+      },
+      {
+        title: "Other",
+        description: "Miscellaneous soundtracks.",
+        tracks: [
           {
             title: "Arcane Abyss",
             source: soundtracks["ArcaneAbyss.mp3"],
