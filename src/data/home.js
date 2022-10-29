@@ -17,7 +17,7 @@ export const socials = [
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/ryanzhu0819/",
+    url: "https://www.linkedin.com/in/ryanzhumusic/",
     component: <FontAwesomeIcon icon={faLinkedin} size="1x" />,
   },
   {
